@@ -25,7 +25,7 @@ La conexión se configura en `config.js` (`supabaseUrl` y `supabaseKey`).
 
 ## Personalizar
 - `config.js`: teléfono, WhatsApp, textos del encabezado y pie y validez por defecto.
-- `assets/logo.png` (logo horizontal) y `assets/icono.png` (monograma cuadrado, usado en el PDF y como favicon): reemplázalos por tus archivos si cambias la marca (PNG transparente, logo mínimo 800 px de ancho).
+- `logo.png` (logo horizontal) y `icono.png` (monograma cuadrado, usado en el PDF y como favicon): reemplázalos por tus archivos si cambias la marca (PNG transparente, logo mínimo 800 px de ancho).
 - `styles.css`: colores y tipografías (variables al inicio del archivo).
 
 ## Archivos
@@ -35,7 +35,7 @@ styles.css   estilos de la página y del documento
 app.js       lógica: formulario, cálculo, historial y PDF
 config.js    datos de la empresa y conexión al registro central
 registro.js  aviso al registro central (con cola si no hay internet)
-assets/      logo y librerías (jsPDF, html2canvas) incluidas para que funcione sin internet externo
+(raíz)       logo y librerías (jsPDF, html2canvas) incluidas para que funcione sin internet externo
 ```
 
 ## Notas
